@@ -76,7 +76,7 @@ int main() {
         int matriz_linhas_colunas = confere_matriz_linhas_colunas(matriz);
         int matriz_submatrizes = confere_submatrizes(matriz);
 
-        // Exibição do resultado da verificação para a instância atual
+        // Exibe o resultado
         printf("Instancia %d\n", i + 1);
         if (matriz_linhas_colunas && matriz_submatrizes) {
             printf("SIM\n");
